@@ -1,0 +1,33 @@
+{
+    "name": "ghostzero/maid-sdk",
+    "description": "Official SDK for maid.sh",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GhostZero\\Maid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "René Preuß",
+            "email": "rene@preuss.io"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3|^7.0",
+        "firebase/php-jwt": "^5.2",
+        "symfony/yaml": "^6.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GhostZero\\Maid\\Tests\\": "tests/"
+        }
+    }
+}
