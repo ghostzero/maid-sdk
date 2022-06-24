@@ -1,5 +1,5 @@
 {
-    "name": "ghostzero/maid-sdk",
+    "name": "maid/sdk",
     "description": "Official SDK for maid.sh",
     "type": "library",
     "license": "MIT",
