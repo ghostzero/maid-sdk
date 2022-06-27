@@ -1,10 +1,10 @@
 <?php
 
-namespace GhostZero\Maid\Traits;
+namespace Maid\Sdk\Traits;
 
-use GhostZero\Maid\Exceptions\RequestRequiresClientIdException;
-use GhostZero\Maid\Result;
-use GhostZero\Maid\Support\Paginator;
+use Maid\Sdk\Exceptions\RequestRequiresClientIdException;
+use Maid\Sdk\Result;
+use Maid\Sdk\Support\Paginator;
 use GuzzleHttp\Exception\GuzzleException;
 
 trait ClusterTrait
@@ -29,5 +29,16 @@ trait ClusterTrait
     public function getClusters(array $parameters = [], Paginator $paginator = null): Result
     {
         return $this->get('clusters', $parameters, $paginator);
+    }
+
+    /**
+     *
+     *
+     * @throws RequestRequiresClientIdException
+     * @throws GuzzleException
+     */
+    public function deleteCluster(int $cluster): Result
+    {
+        return $this->delete("clusters/{$cluster}");
     }
 }

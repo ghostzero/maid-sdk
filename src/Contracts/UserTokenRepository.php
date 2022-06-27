@@ -1,6 +1,6 @@
 <?php
 
-namespace GhostZero\Maid\Contracts;
+namespace Maid\Sdk\Contracts;
 
 interface UserTokenRepository
 {

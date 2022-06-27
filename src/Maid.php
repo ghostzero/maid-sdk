@@ -1,12 +1,12 @@
 <?php
 
-namespace GhostZero\Maid;
+namespace Maid\Sdk;
 
-use GhostZero\Maid\Exceptions\RequestRequiresAuthenticationException;
-use GhostZero\Maid\Exceptions\RequestRequiresClientIdException;
-use GhostZero\Maid\Exceptions\RequestRequiresRedirectUriException;
-use GhostZero\Maid\Contracts\UserTokenRepository;
-use GhostZero\Maid\Support\Paginator;
+use Maid\Sdk\Exceptions\RequestRequiresAuthenticationException;
+use Maid\Sdk\Exceptions\RequestRequiresClientIdException;
+use Maid\Sdk\Exceptions\RequestRequiresRedirectUriException;
+use Maid\Sdk\Contracts\UserTokenRepository;
+use Maid\Sdk\Support\Paginator;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;

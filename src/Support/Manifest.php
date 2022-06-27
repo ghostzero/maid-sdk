@@ -1,8 +1,8 @@
 <?php
 
-namespace GhostZero\Maid\Support;
+namespace Maid\Sdk\Support;
 
-use GhostZero\Maid\Exceptions\ManifestException;
+use Maid\Sdk\Exceptions\ManifestException;
 use Illuminate\Support\Arr;
 use Symfony\Component\Yaml\Yaml;
 

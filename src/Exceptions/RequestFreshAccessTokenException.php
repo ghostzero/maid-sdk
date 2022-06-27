@@ -1,6 +1,6 @@
 <?php
 
-namespace GhostZero\Maid\Exceptions;
+namespace Maid\Sdk\Exceptions;
 
 use DomainException;
 use Psr\Http\Message\ResponseInterface;

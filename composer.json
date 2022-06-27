@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "GhostZero\\Maid\\": "src/"
+            "Maid\\Sdk\\": "src/"
         }
     },
     "authors": [
@@ -27,7 +27,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "GhostZero\\Maid\\Tests\\": "tests/"
+            "Maid\\Sdk\\Tests\\": "tests/"
         }
     }
 }

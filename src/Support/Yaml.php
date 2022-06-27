@@ -1,6 +1,6 @@
 <?php
 
-namespace GhostZero\Maid\Support;
+namespace Maid\Sdk\Support;
 
 use Symfony\Component\Yaml\Yaml as SymfonyYaml;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace GhostZero\Maid\ApiOperations;
+namespace Maid\Sdk\ApiOperations;
 
-use GhostZero\Maid\Result;
+use Maid\Sdk\Result;
 
 /**
  * @author René Preuß <rene.p@preuss.io>

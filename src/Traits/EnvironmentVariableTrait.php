@@ -1,11 +1,11 @@
 <?php
 
-namespace GhostZero\Maid\Traits;
+namespace Maid\Sdk\Traits;
 
-use GhostZero\Maid\ApiOperations\Get;
-use GhostZero\Maid\Exceptions\RequestRequiresClientIdException;
-use GhostZero\Maid\Result;
-use GhostZero\Maid\Support\Paginator;
+use Maid\Sdk\ApiOperations\Get;
+use Maid\Sdk\Exceptions\RequestRequiresClientIdException;
+use Maid\Sdk\Result;
+use Maid\Sdk\Support\Paginator;
 use GuzzleHttp\Exception\GuzzleException;
 
 trait EnvironmentVariableTrait

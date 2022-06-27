@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GhostZero\Maid\Exceptions;
+namespace Maid\Sdk\Exceptions;
 
 use Exception;
 

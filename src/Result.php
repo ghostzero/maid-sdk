@@ -1,9 +1,9 @@
 <?php
 
-namespace GhostZero\Maid;
+namespace Maid\Sdk;
 
 use Exception;
-use GhostZero\Maid\Support\Paginator;
+use Maid\Sdk\Support\Paginator;
 use Psr\Http\Message\ResponseInterface;
 use stdClass;
 

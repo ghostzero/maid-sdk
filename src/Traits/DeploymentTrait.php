@@ -1,9 +1,9 @@
 <?php
 
-namespace GhostZero\Maid\Traits;
+namespace Maid\Sdk\Traits;
 
-use GhostZero\Maid\Exceptions\RequestRequiresClientIdException;
-use GhostZero\Maid\Result;
+use Maid\Sdk\Exceptions\RequestRequiresClientIdException;
+use Maid\Sdk\Result;
 use GuzzleHttp\Exception\GuzzleException;
 
 trait DeploymentTrait

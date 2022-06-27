@@ -1,9 +1,8 @@
 <?php
 
-namespace GhostZero\Maid\Support;
+namespace Maid\Sdk\Support;
 
-use GhostZero\Maid\Result;
-use stdClass;
+use Maid\Sdk\Result;
 
 /**
  * @author René Preuß <rene.p@preuss.io>
@@ -24,7 +23,8 @@ class Paginator
     /**
      * Constructor.
      *
-     * @param stdClass|null $pagination Maid response pagination cursor
+     * @param string|null $nextCursor
+     * @param string|null $prevCursor
      */
     public function __construct(string $nextCursor = null, string $prevCursor = null)
     {
@@ -37,7 +37,7 @@ class Paginator
      *
      * @param Result $result Result object
      *
-     * @return self Paginator object
+     * @return Paginator|null Paginator object
      */
     public static function from(Result $result): ?self
     {
@@ -65,7 +65,7 @@ class Paginator
     /**
      * Set the Paginator to fetch the first set of results.
      *
-     * @return self
+     * @return Paginator|null
      */
     public function next(): ?self
     {
@@ -81,7 +81,7 @@ class Paginator
     /**
      * Set the Paginator to fetch the last set of results.
      *
-     * @return self
+     * @return Paginator|null
      */
     public function back(): ?self
     {
